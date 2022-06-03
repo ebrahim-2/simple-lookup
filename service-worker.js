@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ebrahim-2/simple-lookup/precache-manifest.9c3ca3d68fae5aa7349d23e3bd867dd6.js"
+  "/simple-lookup/precache-manifest.4f882d5de472c2e2bfd96a594cc214a7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ebrahim-2/simple-lookup/index.html", {
+workbox.routing.registerNavigationRoute("/simple-lookup/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
